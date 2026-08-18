@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1100" viewBox="0 0 900 1100" role="img" aria-label="Profilo Jordanie Tane Kenne">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d7be0"/>
+      <stop offset="100%" stop-color="#f55f36"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <rect width="900" height="1100" fill="url(#glow)"/>
+  <circle cx="450" cy="390" r="170" fill="#ffffff" fill-opacity="0.92"/>
+  <path d="M210 930c35-170 145-255 240-255s205 85 240 255" fill="#ffffff" fill-opacity="0.92"/>
+  <text x="450" y="1020" text-anchor="middle" font-size="78" font-family="Manrope, Arial, sans-serif" font-weight="800" fill="#ffffff">JTK</text>
+</svg>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="it" data-lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jordanie Tane Kenne | Software Engineer</title>
+  <meta name="description" content="Portfolio di Jordanie Tane Kenne - backend engineering, AI applicata, progetti software e tirocinio curriculare." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Sora:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top">JTK</a>
+    <nav class="top-nav">
+      <a href="#about" data-i18n="nav_about">Chi sono</a>
+      <a href="#education" data-i18n="nav_education">Formazione</a>
+      <a href="#technical-experience" data-i18n="nav_tech_experience">Esperienza tecnica</a>
+      <a href="#experience" data-i18n="nav_experience">Ristorazione</a>
+      <a href="#projects" data-i18n="nav_projects">Progetti</a>
+      <a href="#contact" data-i18n="nav_contact">Contatti</a>
+    </nav>
+    <button id="langToggle" class="lang-toggle" aria-label="Cambia lingua">EN</button>
+  </header>
+
+  <main id="top">
+    <section class="hero reveal">
+      <div class="hero-grid">
+        <div>
+          <p class="eyebrow" data-i18n="hero_role">Software Engineer</p>
+          <h1 data-i18n="hero_title">Jordanie Tane Kenne</h1>
+          <p class="lead" data-i18n="hero_lead">
+            Sviluppo software pulito e scalabile: sistemi backend, tool open-source e pipeline AI.
+          </p>
+          <p class="sublead" data-i18n="hero_sublead">
+            Studente all'ultimo anno di Ingegneria Informatica (UNIMORE, laurea dicembre 2026).
+            Successivamente iniziero la Laurea Magistrale in Ingegneria Informatica.
+          </p>
+
+          <div class="cta-row">
+            <a class="btn btn-primary" href="mailto:338783@studenti.unimore.it" data-i18n="hero_cta_mail">Contattami</a>
+            <a class="btn btn-ghost" href="assets/Jordanie_Tane_Kenne_CV.pdf" download data-i18n="hero_cta_cv">Scarica CV PDF</a>
+            <a class="btn btn-ghost" href="https://github.com/338783-png" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/jordanie-tane-4033a7394/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+
+          <p class="availability" data-i18n="hero_availability">
+            Disponibile per stage e ruoli junior Software Engineer in Italia / Europa.
+          </p>
+        </div>
+
+        <aside class="hero-profile">
+          <img src="https://github.com/338783-png.png" alt="Foto profilo Jordanie Tane Kenne" />
+          <p data-i18n="profile_caption">Studente UNIMORE · Backend Engineering · Applied AI</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="panel reveal">
+      <h2 data-i18n="about_title">Chi sono</h2>
+      <p data-i18n="about_body">
+        Mi occupo di backend engineering e intelligenza artificiale applicata: sviluppo servizi stabili in produzione con Python,
+        API REST e database SQL. Mi appassionano startup, architetture microservizi e progetti software open-source.
+      </p>
+
+      <div class="chips-grid">
+        <article>
+          <h3 data-i18n="skills_prog_title">Linguaggi</h3>
+          <div class="chips">
+            <span>Python</span><span>Go</span><span>SQL</span><span>C</span>
+          </div>
+        </article>
+        <article>
+          <h3 data-i18n="skills_tools_title">Framework & Strumenti</h3>
+          <div class="chips">
+            <span>FastAPI</span><span>Docker</span><span>PostgreSQL</span><span>Linux</span><span>Git</span>
+          </div>
+        </article>
+        <article>
+          <h3 data-i18n="skills_practices_title">Pratiche di sviluppo</h3>
+          <div class="chips">
+            <span>REST APIs</span><span>Microservices</span><span>CI/CD</span><span>Testing</span><span>Code Review</span><span>Clean Code</span>
+          </div>
+        </article>
+        <article>
+          <h3 data-i18n="skills_ai_title">AI & Dati</h3>
+          <div class="chips">
+            <span>LangChain</span><span>RAG</span><span>PyTorch</span><span>LLMs</span><span>Qdrant</span><span>Computer Vision</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="panel reveal">
+      <h2 data-i18n="edu_title">Formazione</h2>
+      <div class="timeline">
+        <article>
+          <p class="kicker">2023 - 2026</p>
+          <h3 data-i18n="edu_uni_degree">Laurea Triennale in Ingegneria Informatica</h3>
+          <p data-i18n="edu_uni_school">UNIMORE, sede di Mantova</p>
+          <p data-i18n="edu_uni_note">Iscritto nel 2023, laurea prevista a dicembre 2026.</p>
+        </article>
+        <article>
+          <p class="kicker" data-i18n="edu_next_kicker">Dal 2027</p>
+          <h3 data-i18n="edu_next_degree">Laurea Magistrale in Ingegneria Informatica</h3>
+          <p data-i18n="edu_next_note">Percorso previsto dopo il completamento della triennale.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="technical-experience" class="panel reveal">
+      <h2 data-i18n="tech_title">Esperienza tecnica</h2>
+      <article class="tech-card">
+        <p class="kicker" data-i18n="tech_kicker">Tirocinio Curriculare · 24/08/2026 - 23/10/2026</p>
+        <h3 data-i18n="tech_project_title">Progetto 3 - Agente AI per Contabilizzazione Fatture</h3>
+        <p class="tech-company">Holding Intergea Nord Est S.r.L · Lombardia</p>
+        <p data-i18n="tech_project_desc">
+          Automazione del processo di contabilizzazione delle fatture elettroniche tramite software Python con AI integrata.
+        </p>
+        <ul class="feature-list">
+          <li data-i18n="tech_act_1">Affiancamento al reparto amministrativo per comprendere le regole di registrazione.</li>
+          <li data-i18n="tech_act_2">Sviluppo software Python con modulo AI per la registrazione autonoma delle fatture.</li>
+          <li data-i18n="tech_act_3">Test e validazione del processo automatizzato.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="experience" class="panel reveal">
+      <h2 data-i18n="experience_title">Esperienza ristorazione</h2>
+      <div class="timeline">
+        <article>
+          <p class="kicker">Lug 2025 - Set 2025</p>
+          <h3 data-i18n="exp1_role">Cameriere di sala e aiuto cucina</h3>
+          <p data-i18n="exp1_company">Color Perla Village, Rimini</p>
+          <p data-i18n="exp1_desc">
+            Servizio ai tavoli, supporto cucina, pulizia e igienizzazione superfici, manutenzione utensili.
+          </p>
+        </article>
+        <article>
+          <p class="kicker">Lug 2024 - Set 2024</p>
+          <h3 data-i18n="exp2_role">Lavapiatti</h3>
+          <p data-i18n="exp2_company">Color Perla Village, Rimini</p>
+          <p data-i18n="exp2_desc">
+            Lavaggio e sanificazione stoviglie e aree cucina, organizzazione operativa e pulizia delle attrezzature.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="panel reveal">
+      <h2 data-i18n="projects_title">Progetti</h2>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>01. Sistema di Monitoraggio Biblioteca</h3>
+          <p data-i18n="p1_desc">
+            Dashboard IoT real-time multi-piano con sensori (temperatura, illuminazione, fumo/incendio), protocollo MQTT,
+            API Flask e allarmi automatici.
+          </p>
+          <p class="stack">Python · Flask · MQTT · IoT</p>
+          <a href="https://github.com/338783-png/Sistema_di_Monitoraggio_biblioteca" target="_blank" rel="noreferrer">GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <h3>02. Diabetes Classifier</h3>
+          <p data-i18n="p2_desc">
+            Classificazione binaria del rischio diabete sul dataset Pima Indians con Logistic Regression,
+            preprocessing dati, standardizzazione e valutazione (~77% accuracy, ROC-AUC ~0.81).
+          </p>
+          <p class="stack">Python · scikit-learn · pandas · matplotlib</p>
+          <a href="https://github.com/338783-png/proggetto_esame_machine_learning" target="_blank" rel="noreferrer">GitHub</a>
+        </article>
+
+        <article class="project-card">
+          <h3>03. simic</h3>
+          <p data-i18n="p3_desc">
+            Progetto web con backend Django e form contatti in PHP con integrazione email.
+          </p>
+          <p class="stack">Python · Django · PHP</p>
+          <a href="https://github.com/338783-png/simic" target="_blank" rel="noreferrer">GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel reveal">
+      <h2 data-i18n="languages_title">Lingue</h2>
+      <div class="chips">
+        <span data-i18n="lang_fr">Francese (madrelingua)</span>
+        <span data-i18n="lang_it">Italiano (B2)</span>
+        <span data-i18n="lang_en">Inglese (B1)</span>
+        <span data-i18n="lang_de">Tedesco (A1)</span>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <h2 data-i18n="footer_title">Costruiamo qualcosa di grande.</h2>
+    <p>
+      <a href="mailto:338783@studenti.unimore.it">338783@studenti.unimore.it</a>
+      <span>·</span>
+      <a href="tel:+393518645657">+39 351 864 5657</a>
+    </p>
+    <p class="footer-links">
+      <a href="https://github.com/338783-png" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/jordanie-tane-4033a7394/" target="_blank" rel="noreferrer">LinkedIn</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
